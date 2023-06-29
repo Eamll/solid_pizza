@@ -7,7 +7,7 @@ exports.createOrder = (pizzas) => {
     order.createdAt = new Date();
 
     pizzas.forEach((pizzaData) => {
-        console.log(pizzaData)
+
         const { id } = pizzaData.pizza;
         const quantity = pizzaData.quantity;
         const pizza = pizzaDataId.getPizza(id);
