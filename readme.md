@@ -11,6 +11,7 @@ Realizar un servicio Web que cumpla los siguientes criterios:
 -   La aplicación debe cumplir con los principios S.O.L.I.D. y de ser favorable aplicar los  [patrones de diseño](http://cvpg.nur.edu/mod/resource/view.php?id=26742 "Patrones de Diseño")  necesarios
 
 **Crear pizzas POST**
+
 http://localhost:3000/pizzas/?name=Mariana&ingredients=Queso fetuccini&price=20
 
 Params: name, ingredients, price.
@@ -36,6 +37,7 @@ Params: name, ingredients, price.
 http://localhost:3000/pizzas/
 
 **Crear orden POST**
+
 http://localhost:3000/orders
 
 En el body, raw:
@@ -294,6 +296,7 @@ Respuesta con delivery gratis
 ```
 
 **Conseguir ordenes GET**
+
 http://localhost:3000/orders
 # Repositorio
 	Link: https://github.com/Eamll/solid_pizza
